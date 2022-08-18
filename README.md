@@ -1,5 +1,5 @@
 # myFiber
-type Fiber = {
+`type Fiber = {
   /************************  DOM 实例相关  *****************************/
   
   // 标记不同的组件类型, 值详见 WorkTag
@@ -60,4 +60,4 @@ type Fiber = {
   
   // 当前组件及子组件处于何种渲染模式 详见 TypeOfMode
   mode: TypeOfMode,
-};
+};`
